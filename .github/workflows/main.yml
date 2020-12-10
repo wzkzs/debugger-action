@@ -15,4 +15,4 @@ jobs:
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
     - name: time
-      uses: touch /tmp/keeplive
+      uses: touch /tmp/keepalive
