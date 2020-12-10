@@ -45,7 +45,7 @@ while [ -S /tmp/tmate.sock ]; do
   if [ ! -f /tmp/keepalive ]; then
     if (( timeout < 0 )); then
       echo Waiting on tmate connection timed out!
-      exit 1
+     
     fi
   fi
 done
